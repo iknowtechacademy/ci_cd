@@ -34,7 +34,7 @@ public class CalculadoraTest {
        assertEquals("5", calc.suma("2,3"));
        assertEquals("1", calc.suma("1,0"));
        assertEquals("100", calc.suma("50,50"));
-       assertEquals("-10", calc.suma("-20,10"));
+       assertEquals("30", calc.suma("20,10"));
        
    }
    
@@ -52,6 +52,7 @@ public class CalculadoraTest {
                 
         assertEquals("50",calc.suma("1500,50"));
         assertEquals("35",calc.suma("35,5000"));
+        assertEquals("45",calc.suma("10,1001,35"));
     }
     
     @Test
