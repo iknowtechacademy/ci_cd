@@ -5,3 +5,10 @@ KataCalculadora/target/maven-archiver/pom.properties
 KataCalculadora/target/surefire-reports/TEST-com.iknow.tdd.katacalculadora.CalculadoraTest.xml
 KataCalculadora/target/surefire-reports/com.iknow.tdd.katacalculadora.CalculadoraTest.txt
 KataCalculadora/target/test-classes/com/iknow/tdd/katacalculadora/CalculadoraTest.class
+KataTresEnRaya/nbproject/project.properties
+KataTresEnRaya/target/KataTresEnRaya-1.0-SNAPSHOT.jar
+KataTresEnRaya/target/classes/com/iknow/tdd/katatresenraya/TicTacToe.class
+KataTresEnRaya/target/maven-archiver/pom.properties
+KataTresEnRaya/target/surefire-reports/TEST-com.iknow.tdd.katatresenraya.TicTacToeTest.xml
+KataTresEnRaya/target/surefire-reports/com.iknow.tdd.katatresenraya.TicTacToeTest.txt
+KataTresEnRaya/target/test-classes/com/iknow/tdd/katatresenraya/TicTacToeTest.class
