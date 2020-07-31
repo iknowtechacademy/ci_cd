@@ -2,8 +2,13 @@ package com.iknow.tdd.katacalculadora;
 
 import org.junit.Test;
 import static org.junit.Assert.*;
+import org.junit.Rule;
+import org.junit.rules.ExpectedException;
 
 public class CalculadoraTest {
+    
+   @Rule
+    public ExpectedException exception = ExpectedException.none();
     
    @Test 
    public void siCadenaVaciaRetorneCero(){
@@ -53,6 +58,7 @@ public class CalculadoraTest {
     public void numerosNegativoLanzaException(){
         
         Calculadora calc = new Calculadora();
+        exception.expect(RuntimeException.class);
         assertEquals("50",calc.suma("1500,-50"));
     }
    
