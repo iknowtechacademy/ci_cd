@@ -1,0 +1,7 @@
+KataCalculadora/nbproject/project.properties
+KataCalculadora/target/KataCalculadora-1.0-SNAPSHOT.jar
+KataCalculadora/target/classes/com/iknow/tdd/katacalculadora/Calculadora.class
+KataCalculadora/target/maven-archiver/pom.properties
+KataCalculadora/target/surefire-reports/TEST-com.iknow.tdd.katacalculadora.CalculadoraTest.xml
+KataCalculadora/target/surefire-reports/com.iknow.tdd.katacalculadora.CalculadoraTest.txt
+KataCalculadora/target/test-classes/com/iknow/tdd/katacalculadora/CalculadoraTest.class
