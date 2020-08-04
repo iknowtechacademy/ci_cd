@@ -6,14 +6,35 @@ public class TicTacToe {
 
     private Character[][] board = {{'0', '0', '0'}, {'0', '0', '0'}, {'0', '0', '0'}};
 
-    public void jugar(int x, int y) {
+    public String jugar(int x, int y) {
        
         verificarCoordenada(x);
         verificarCoordenada(y);
-        asignarPosicion(x,y);
         
         ultimoJugador = siguienteJugador();
+        asignarPosicion(x,y);
         
+        if (esGanador()) {
+            return ultimoJugador + " es el ganador";
+        }
+        return "No ganador";
+        
+    }
+    
+    private static final int SIZE = 3;
+     private boolean esGanador() {
+        int total = ultimoJugador * 3;
+        for (int i = 0; i < SIZE; i++) {
+            
+            if (board[0][i] + board[1][i] + board[2][i] == total) {
+                return true;
+            } else if (board[i][0] + board[i][1] + board[i][2] == total) {
+                return true;
+            }
+
+        }
+        return false;
+
     }
     
     public void verificarCoordenada(int coordenada){

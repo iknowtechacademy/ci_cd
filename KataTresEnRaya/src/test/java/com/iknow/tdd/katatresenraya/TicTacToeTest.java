@@ -53,6 +53,36 @@ public class TicTacToeTest {
         assertEquals('X', ticTacToe.siguienteJugador());
     }
     
+    //3er Req
+    
+    @Test
+    public void cuandoNoHayGanador() {
+        String actual = ticTacToe.jugar(1, 1);
+        assertEquals("No ganador", actual);
+    }
+
+    @Test
+    public void cuandoGanaLineasHorizontales() {
+        ticTacToe.jugar(1, 1); // X
+        ticTacToe.jugar(1, 2); // +
+        ticTacToe.jugar(2, 1); // X
+        ticTacToe.jugar(2, 2); // +
+        String actual = ticTacToe.jugar(3, 1); // X
+        assertEquals("X es el ganador", actual);
+    }
+
+    
+    @Test
+    public void cuandoGanaLineasVerticales() {
+        ticTacToe.jugar(2, 1); // X
+        ticTacToe.jugar(1, 1); // +
+        ticTacToe.jugar(3, 1); // X
+        ticTacToe.jugar(1, 2); // +
+        ticTacToe.jugar(2, 2); // X
+        String actual = ticTacToe.jugar(1, 3); // +
+        assertEquals("+ es el ganador", actual);
+    }
+    
     
     
 }
