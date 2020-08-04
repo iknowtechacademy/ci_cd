@@ -80,7 +80,7 @@ public class TicTacToeTest {
         ticTacToe.jugar(1, 2); // +
         ticTacToe.jugar(2, 2); // X
         String actual = ticTacToe.jugar(1, 3); // +
-        assertEquals("+ es el ganador", actual);
+        assertEquals("No ganador", actual);
     }
     
     
