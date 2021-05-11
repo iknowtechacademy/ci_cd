@@ -18,10 +18,10 @@ public class Calculadora {
         
         for(int i=0;i < sumandos.length ;i++){
             Integer numero = new Integer(sumandos[i]);
-            /*
+            
             if(numero > 1000){
                 continue;
-            }*/
+            }
             
             if(numero < 0){
                 throw new RuntimeException("Se introdujo un numero negativo");
