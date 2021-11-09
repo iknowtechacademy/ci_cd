@@ -21,7 +21,7 @@ public class Calculadora {
             
             
             if(numero > 1000){
-                //continue;
+                continue;
             }
             
             if(numero < 0){
