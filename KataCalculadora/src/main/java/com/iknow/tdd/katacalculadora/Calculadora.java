@@ -2,6 +2,7 @@ package com.iknow.tdd.katacalculadora;
 
 public class Calculadora {
     
+    //Este es un metodo para sumar numeros
     public String suma(String parametros){
         
         if(parametros.equals("")){
