@@ -33,7 +33,7 @@ public class Calculadora {
             
         }
         
-        //return new Integer(total).toString();
+        return new Integer(total).toString();
         
     }
     
