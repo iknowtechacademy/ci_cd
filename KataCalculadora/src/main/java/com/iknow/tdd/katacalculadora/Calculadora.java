@@ -6,7 +6,7 @@ public class Calculadora {
     public String suma(String parametros){
         
         if(parametros.equals("")){
-            return "0";
+            return "1";
         }
         
         int total = 0;
