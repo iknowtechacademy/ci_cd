@@ -1,2 +1,2 @@
 # ci_cd
-Repositorio del curso ci_cd
+Este es el repositorio para TDD
