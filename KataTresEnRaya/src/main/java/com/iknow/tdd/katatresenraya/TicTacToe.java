@@ -38,7 +38,7 @@ public class TicTacToe {
     }
     
     public void verificarCoordenada(int coordenada){
-        if (coordenada < 1 || coordenada > 3) {
+        if (coordenada < 1 || coordenada >= 3) {
             throw new RuntimeException("La coordenada esta fuera del tablero");
         }
     }
