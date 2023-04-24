@@ -57,7 +57,7 @@ public class TicTacToe {
     public char siguienteJugador(){
         
         if(ultimoJugador == 'X'){
-            return '*';
+            return '+';
         }
         return 'X';
     }            
